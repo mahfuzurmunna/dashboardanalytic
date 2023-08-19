@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e20;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  margin: 2em;
+}
+
+ul {
+  list-style: none;
+}
+
+li,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.active a {
+  color: white;
+  font-weight: 600;
+}
+
+svg {
+  width: 100%;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+.toggle-menu {
+  transform: translateX(0);
+}
+
+@media only screen and (min-width: 620px) {
+  .hide-tablet {
+    display: none;
+  }
+}/*# sourceMappingURL=global.css.map */
